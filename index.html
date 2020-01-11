@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>UniFi LED</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="container">
+        <div class="logo">
+          <a href="#"><img src="img/logo.png" alt="Logo Image"/></a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header id="hero">
+      <div class="overlay"></div>
+      <div class="inner-section">
+        <h1>Company Lights LED</h1>
+        <p class="lead">Network-Managed LED Panel and Dimmer Switch</p>
+        <p>
+          Ubiquiti introduces the ultimate in lighting efficiency and
+          convenience.
+        </p>
+        <a href="#" class="btn">Buy in Store</a>
+      </div>
+      <div class="inner-section-2">
+        <div class="container">
+          <div class="box-container">
+            <div class="info-box top-element">
+              <div class="icon"><img src="img/icons/flash.png" alt="" /></div>
+              <div class="txt">
+                <h3>Lower Costs</h3>
+                <p>
+                  High-efficiency UniFi LED panels save energy cost and lower
+                  building maintenance expenses
+                </p>
+              </div>
+            </div>
+            <div class="info-box">
+              <div class="icon">
+                <img src="img/icons/settings.png" alt="" />
+              </div>
+              <div class="txt">
+                <h3>Flexible Deployment</h3>
+                <p>
+                  PoE-powered AT model and innovative daisy-chained AC model for
+                  new buildings and retrofits
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="image-box">
+            <img src="img/LED.png" alt="" />
+            <div class="slider">
+              <div>
+                <input
+                  type="range"
+                  class="range"
+                  name=""
+                  id=""
+                  value="0"
+                  min="0"
+                  max="100"
+                  onmousemove="rangeSlider(this.value)"
+                  onchange="rangeSlider(this.value)"
+                />
+              </div>
+              <div class="lumin-value"></div>
+            </div>
+          </div>
+          <div class="box-container">
+            <div class="info-box top-element">
+              <div class="icon">
+                <img src="img/icons/medal.png" alt="" />
+              </div>
+              <div class="txt">
+                <h3>Certified Safety and Performance</h3>
+                <p>
+                  UniFi LED panels are NRTL listed. The AC powered models are
+                  also DLC certified and are eligible for government/utility
+                  rebates
+                </p>
+              </div>
+            </div>
+            <div class="info-box">
+              <div class="icon">
+                <img src="img/icons/refresh.png" alt="" />
+              </div>
+              <div class="txt">
+                <h3>Smart Lighting Controls</h3>
+                <p>
+                  Web and mobile app managed smart lighting integrates with
+                  UniFi Enterprise product family
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="section-1" class="pt-4">
+      <h2 class="main-heading">Easy Installation</h2>
+      <p class="main-heading-desc">
+        Daisy chain power and use Wi-Fi — no need for control wiring
+      </p>
+
+      <div class="inner-section">
+        <div class="container">
+          <div class="grid">
+            <div class="grid-item-container">
+              <h2 class="num-xl">01</h2>
+              <h3 class="heading-description">Connect LED Panel to AC</h3>
+              <p class="text-center">
+                802.3at Power over Ethernet is safer than AC power and uses just
+                a single cable
+              </p>
+              <div class="buffer"></div>
+              <div class="img">
+                <img src="img/01.JPG" alt="" />
+              </div>
+            </div>
+            <div class="grid-item-container">
+              <h2 class="num-xl">02</h2>
+              <h3 class="heading-description">Connect LED Panel to AC</h3>
+              <p class="text-center">
+                Connect the UniFi Dimmer Switch to an 802.3af PoE switch.
+              </p>
+              <div class="buffer"></div>
+              <div class="img">
+                <img src="img/02.JPG" alt="" />
+              </div>
+            </div>
+            <div class="grid-item-container">
+              <h2 class="num-xl">03</h2>
+              <h3 class="heading-description">Manage Your Lighting System</h3>
+              <p class="text-center">
+                Use the UniFi LED Controller or the UniFi LED app (iOS or
+                Android).
+              </p>
+              <div class="buffer"></div>
+              <div class="img">
+                <img src="img/03.JPG" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="buffer"></div>
+      <h2 class="main-heading">Flexible Configurations</h2>
+      <p class="main-heading-desc">
+        Ubiquiti’s Ease of Use Applied to Energy-Efficient Lighting
+      </p>
+      <div class="inner-section-2 pt-2">
+        <div class="container">
+          <div class="grid">
+            <div class="grid-item-container">
+              <h3 class="heading-description text-center">
+                Fully Integrated Lighting System<br />
+                Using PoE
+              </h3>
+              <p class="text-center">
+                A PoE switch provides both power and data connectivity for LED
+                panels and switches.
+              </p>
+              <div class="buffer"></div>
+              <div class="img">
+                <img src="img/config-1.png" alt="" />
+              </div>
+            </div>
+            <div class="grid-item-container text-center">
+              <h3 class="heading-description">
+                Daisy-Chained AC-Powered LED Panels Connected by Ethernet
+              </h3>
+              <p class="text-center">
+                ULED-AC panels have two Ethernet ports and a connector for power
+                daisy chaining. Drop-in replacement for fluorescent lighting
+                retrofits.
+              </p>
+              <div class="buffer"></div>
+              <div class="img">
+                <img src="img/config-2.png" alt="" />
+              </div>
+            </div>
+            <div class="grid-item-container text-center">
+              <h3 class="heading-description">
+                Daisy-Chained AC-Powered LED Panels Connected by Wi-Fi
+              </h3>
+              <p class="text-center">
+                ULED-AC panels have Wi-Fi for network connectivity and an AC
+                connector for power daisy chaining. Drop-in replacement for
+                fluorescent lighting retrofits
+              </p>
+              <div class="buffer"></div>
+              <div class="img">
+                <img src="img/config-3.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="main-heading">Seamless Network Integration</h2>
+      <p class="main-heading-desc text-center">
+        ULED-AT uses 802.3at PoE+ (25W) and UDIM-AT uses 802.3af PoE.<br />
+        ULED-AC connects using Ethernet or Wi-Fi, and UDIM-AC connects using
+        Wi-Fi.
+      </p>
+    </section>
+
+    <section id="section-2">
+      <div class="container">
+        <h2>Compare Electricity Prices</h2>
+        <div class="flex-container">
+          <div class="subsection-1">
+            <div>model</div>
+            <div>slider</div>
+            <div>room size</div>
+          </div>
+          <div class="subsection-2">
+            <div>
+              <div class="d-flex">
+                <div class="bar-blue first"></div>
+                <div class="bar-white first"></div>
+              </div>
+              <h3>1st<br />Year</h3>
+            </div>
+            <div>
+              <div class="d-flex">
+                <div class="bar-blue second"></div>
+                <div class="bar-white second"></div>
+              </div>
+              <h3>2nd<br />Year</h3>
+            </div>
+            <div>
+              <div class="d-flex">
+                <div class="bar-blue"></div>
+                <div class="bar-white"></div>
+              </div>
+              <h3>3rd<br />Year</h3>
+            </div>
+            <div>
+              <div class="d-flex">
+                <div class="bar-blue"></div>
+                <div class="bar-white"></div>
+              </div>
+              <h3>4th<br />Year</h3>
+            </div>
+            <div>
+              <div class="d-flex">
+                <div class="bar-blue"></div>
+                <div class="bar-white"></div>
+              </div>
+              <h3>5th<br />Year</h3>
+            </div>
+            <div>
+              <div class="d-flex">
+                <div class="bar-blue"></div>
+                <div class="bar-white"></div>
+              </div>
+              <h3>6th<br />Year</h3>
+            </div>
+            <div>
+              <div class="d-flex">
+                <div class="bar-blue"></div>
+                <div class="bar-white"></div>
+              </div>
+              <h3>7th<br />Year</h3>
+            </div>
+            <div>
+              <div class="d-flex">
+                <div class="bar-blue"></div>
+                <div class="bar-white"></div>
+              </div>
+              <h3>8th<br />Year</h3>
+            </div>
+            <div>
+              <div class="d-flex">
+                <div class="bar-blue"></div>
+                <div class="bar-white"></div>
+              </div>
+              <h3>9th<br />Year</h3>
+            </div>
+            <div>
+              <div class="d-flex">
+                <div class="bar-blue"></div>
+                <div class="bar-white"></div>
+              </div>
+              <h3>10th<br />Year</h3>
+            </div>
+          </div>
+          <div class="subsection-3">
+            <div class="d-flex">
+              <div class="inner-flex">
+                <div class="box">
+
+                </div>
+                <div class="text"><p>UniFi LED</p></div>
+              </div>
+              <div class="inner-flex">
+                <div class="box bg-white">
+
+                </div>
+                <div class="text"><p>Flourescent Tubes</p></div>
+              </div>
+              </div>
+            <div>3</div>
+          
+
+        </div>
+      </div>
+    </section>
+
+    <script>
+      let rangeSlider = value => {
+        const overlay = document.querySelector('#hero .overlay');
+        const ledImage = document.querySelector('.image-box img');
+        const lmv = document.querySelector('.image-box .slider .lumin-value');
+        if (value < 10) {
+          overlay.style.opacity = 0.9;
+          ledImage.style.filter = 'brightness(20%)';
+        } else if (value > 10 && value < 30) {
+          overlay.style.opacity = 0.7;
+          ledImage.style.filter = 'brightness(40%)';
+        } else if (value > 30 && value < 60) {
+          overlay.style.opacity = 0.55;
+          ledImage.style.filter = 'brightness(65%)';
+        } else if (value > 60 && value < 80) {
+          overlay.style.opacity = 0.3;
+          ledImage.style.filter = 'brightness(80%)';
+        } else if (value > 80) {
+          overlay.style.opacity = 0.15;
+          ledImage.style.filter = 'brightness(95%)';
+        }
+
+        lmv.innerHTML = `${value * 34}lm`;
+      };
+    </script>
+  </body>
+</html>
